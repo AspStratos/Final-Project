@@ -9,6 +9,8 @@ Password: 12345
 
 ### Links
 
+GitHub Link: https://github.com/AspStratos/Final-Project
+
 Frontend served on http://localhost:4200
 
 Website served on http://localhost:5000
