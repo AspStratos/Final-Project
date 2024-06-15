@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Jacquard+24&display=swap');
+
+header{
+  font-family: Poppins;
+  position: relative;
+  background: white;
+  padding: 0;
+}
+
+a, label{
+  color: #07b31e;
+  text-decoration: none;
+}
+
+.navi{
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0 0 14rem;
+}
+
+.navi__child{
+  font-size: 1.2rem;
+  margin: 0.5rem 2rem 0 2rem;
+  padding: 0.5rem;
+  transition: font-size 0.1s ease-in-out;
+}
+
+.navi__child:hover{
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-decoration: overline;
+}
+
+ul a, label{
+  padding: 1rem;
+  display: inline-block;
+  transition: font-size 0.1s ease-in-out;
+}
+
+ul a:active, label:active{
+  font-size: 0.93rem;
+}
+
+ul a:hover, label:hover{
+  background:#07b31e;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container{
+  margin: 0 ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul li{
+  margin-top: 0.5rem;
+}
+
+a span{
+  background: #ff4d4d;
+  color: white;
+  padding: 0.1rem 0.45rem;
+  border-radius: 100rem;
+  font-size:0.9rem;
+}
+
+.logo{
+  font-family: Calistoga;
+  font-weight: normal;
+  font-size: 50px;
+  padding: 0 1rem;
+  transition: font-size 0.1s ease-in-out;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+.logo:active{
+  font-size: 3rem;
+}
+
+.category{
+  display: inline-flex;
+}
+
+.login, .username{
+  font-weight: 700;
+}
+
+.username{
+  display: block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-container{
+  position: relative;
+  max-width: 121px;
+}
+
+.menu{
+  position:absolute;
+  z-index:1;
+  background:whitesmoke;
+  display: none;
+  border-radius: 5px;
+}
+
+.menu-container:hover .menu{
+  display: block;
+}
+
+.menu a{
+  min-width:6rem;
+}
